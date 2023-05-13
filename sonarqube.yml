@@ -1,7 +1,7 @@
 
 ---
 - name: Install docker and SonarQube
-  hosts: staging 
+  hosts: myservers
   become: true
   tasks:
     - name: Install Docker
